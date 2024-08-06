@@ -6,7 +6,7 @@ This repository contains a Python implementation of a products recommendation en
 
 - Item-based collaborative filtering
 - PyNNDescent for efficient graph-based approximate nearest neighbor search
-- Sentence Transformers for preference and product embeddings
+- Sentence Transformers for embedding generation
 
 ## Run script
 
