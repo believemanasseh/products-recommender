@@ -119,7 +119,6 @@ def make_recommendations(
     similar_products, distances = product_index.query(
         user_embedding.reshape(1, -1), k=top_n + 1
     )
-    print(distances, "sds")
 
     # Get products purchased
     similar_user_products = purchase_history_df[
